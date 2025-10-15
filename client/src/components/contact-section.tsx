@@ -52,7 +52,7 @@ export function ContactSection() {
 
         <div className="text-center mt-16 pt-16 border-t">
           <p className="text-muted-foreground">
-            © 2024 Alex Morgan. Built with React, TypeScript & Tailwind CSS
+            © 2024 Parth Parekh. Built with React, TypeScript & Tailwind CSS
           </p>
         </div>
       </div>

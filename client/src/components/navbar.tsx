@@ -57,7 +57,7 @@ export function Navbar() {
             className="text-xl font-bold font-mono hover-elevate active-elevate-2 px-3 py-2 rounded-md"
             data-testid="link-home"
           >
-            {"<AM />"}
+            {"< /PP >"}
           </button>
 
           <div className="hidden md:flex items-center gap-1">

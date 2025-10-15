@@ -107,10 +107,10 @@ export const experiences: Experience[] = [
 export const education: Education[] = [
   {
     id: "1",
-    degree: "Bachelor of Science in Computer Science",
+    degree: "Bachelor of Technology in Computer Science",
     institution: "Tech University",
     period: "2014 - 2018",
-    description: "GPA: 3.8/4.0. Specialized in Software Engineering and Web Technologies. President of Computer Science Club."
+    description: "GPA: 10/10. Specialized in Software Engineering and Web Technologies. President of Computer Science Club."
   },
   {
     id: "2",
@@ -124,22 +124,22 @@ export const education: Education[] = [
 export const socialLinks: SocialLink[] = [
   {
     platform: "LinkedIn",
-    url: "https://linkedin.com/in/alexmorgan-dev",
+    url: "https://www.linkedin.com/in/parth-parekh-72082b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     icon: "linkedin"
   },
   {
     platform: "GitHub",
-    url: "https://github.com/alexmorgan",
+    url: "https://github.com/Parth-8859",
     icon: "github"
   },
   {
     platform: "Instagram",
-    url: "https://instagram.com/alexmorgan.codes",
+    url: "https://www.instagram.com/parth24571?igsh=YnBsMTVnc3hjemNj",
     icon: "instagram"
   },
   {
     platform: "Email",
-    url: "mailto:alex.morgan@example.com",
+    url: "mailto:parth.parekh@example.com",
     icon: "mail"
   }
 ];

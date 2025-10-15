@@ -29,13 +29,13 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="flex flex-col items-center text-center space-y-8">
           <Avatar className="h-40 w-40 border-4 border-primary/20 shadow-xl">
-            <AvatarImage src={profileImg} alt="Alex Morgan" />
-            <AvatarFallback>AM</AvatarFallback>
+            <AvatarImage src={profileImg} alt="Parth Parekh" />
+            <AvatarFallback>PP</AvatarFallback>
           </Avatar>
 
           <div className="space-y-4 max-w-4xl">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight" data-testid="text-hero-name">
-              Alex Morgan
+              Parth Parekh
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground font-medium">
               Full Stack Developer
