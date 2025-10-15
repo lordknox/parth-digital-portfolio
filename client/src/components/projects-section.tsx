@@ -24,12 +24,8 @@ export function ProjectsSection() {
               className="overflow-hidden hover-elevate transition-all duration-300"
               data-testid={`card-project-${project.id}`}
             >
-              <div
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-0 ${
-                  index % 2 === 1 ? "lg:grid-flow-dense" : ""
-                }`}
-              >
-                <div className={`relative ${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
+              <div className="flex flex-col lg:flex-row gap-0">
+                <div className={`relative lg:flex-1 ${index % 2 === 1 ? "lg:order-2" : "lg:order-1"}`}>
                   <div className="aspect-video lg:aspect-auto lg:h-full relative overflow-hidden bg-muted">
                     <img
                       src={project.image}
@@ -39,7 +35,7 @@ export function ProjectsSection() {
                   </div>
                 </div>
 
-                <CardContent className="p-8 lg:p-12 flex flex-col justify-center">
+                <CardContent className={`p-8 lg:p-12 lg:flex-1 flex flex-col justify-center ${index % 2 === 1 ? "lg:order-1" : "lg:order-2"}`}>
                   <h3 className="text-2xl lg:text-3xl font-bold mb-4" data-testid={`text-project-title-${project.id}`}>
                     {project.title}
                   </h3>
