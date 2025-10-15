@@ -64,10 +64,10 @@ const port = parseInt(process.env.PORT || '5000', 10);
 server.listen(
   {
     port,
-    host: "localhost",
+    host: "0.0.0.0", // listen on all interfaces for Render
   },
   () => {
-    log(`Serving on http://localhost:${port}`);
+    log(`Serving on http://0.0.0.0:${port}`);
   }
 );
 })();
